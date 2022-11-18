@@ -1,0 +1,138 @@
+.ractangle{
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;  
+    background-color: rgb(199, 4, 4);  
+    border: whitesmoke;
+}
+.ractangle>.bg{
+    background-size: cover;
+    height: 250px;
+    width: 300px;
+    margin-top: 14px;
+}
+.ractangle>.mainimage{
+    background-size: cover;
+    height: 140px;
+    width: 90px;
+    position: relative;
+    left: 1%;
+    top: -92%;
+}
+.ractangle>.image2{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: -63%;
+    left: 44%;
+    
+}
+
+.box1{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    top: -160%;
+    left: 30%;
+    margin: 2px;
+    border-radius: 15px;
+    box-shadow: 2px 2px black;
+    
+}
+.box1>h5{
+    position: relative;
+    left: 8%;
+    top: 20%;
+    color: white;
+    text-shadow: 2px 2px rgb(61, 61, 61);
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1>span{
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 15px;
+    position: absolute;
+    color: rgb(0, 31, 58);
+    text-shadow: 2px 2px rgb(238, 16, 16);
+    font-weight: bolder;
+}
+.box2{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    top: -155%;
+    left: 30%;
+    margin-left: 2px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px black;
+}
+.box2>.h5{
+    position: relative;
+    left: 8%;
+    top: 20%;
+    color: white;
+    text-shadow: 2px 2px rgb(61, 61, 61);
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box2>.span{
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 15px;
+    position: absolute;
+    color: rgb(0, 31, 58);
+    text-shadow: 2px 2px rgb(238, 16, 16);
+    font-weight: bolder;
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: rgb(168, 76, 0);
+    width: 90px;
+    height: 22px;
+    border: none;
+    box-shadow: 2px 2px black;
+    border-radius: 15px;
+    position: relative;
+    top: -152%;
+    left: 50%;
+    transition: 1s ease;
+    cursor: pointer;
+    animation-duration: 2 s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+button:hover{
+    background-color: red;
+
+}
+h6{
+    position: relative;
+    top: -158%;
+    left: 10%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+
+@keyframes slidein {
+    from {
+      margin-left: 55px;
+      width: 90px;
+ 
+    }
+  
+    to {
+      margin-left: 1px;
+      width: 90px;
+    
+    }
+  }

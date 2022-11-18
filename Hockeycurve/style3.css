@@ -1,0 +1,66 @@
+.rectangle{
+    height: 250px;
+    width: 300px;
+    background-image: url("Template/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rectangle>.mainimage{
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    left: 2%;
+    top: -43.5%;
+}
+.rectangle>.logo{
+    height: 60px;
+    width: 90px;
+    position: relative;
+    left: 5%;
+    top: -115%;
+}
+.rectangle>h4{
+    position: relative;
+    top: -130%;
+    left: 5%;
+    font-size: 37px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1cm;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+}
+.rectangle>h1{
+    position:relative;
+    left: 38%;
+    top: 65%;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 50px;
+    line-height: 1cm;
+}
+.rectangle>button{
+    position: relative;
+    top: -145%;
+    left: 5%;
+    background-color:whitesmoke;
+    border: none;
+    width: 90px;
+    height: 25px;
+    color: red;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.rectangle>button>a{
+    color: red;
+    text-decoration: none;
+}
+.rectangle>button:hover{
+    background-color: rgb(243, 9, 9);
+    columns: white;
+}
+.rectangle>button>a:hover{
+    color: white;  
+}

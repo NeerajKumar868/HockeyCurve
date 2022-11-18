@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(243, 242, 242);
+}
+.box {
+    height: 250px;
+    width: 300px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 126, 6));
+}
+.logo>#logo {
+    position: absolute;
+    height: 85px;
+    width: 120px;
+    margin-top: -20px;
+    margin-left: 180px;
+}
+
+.logo>#logo1 {
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.wish>h5 {
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(230, 150, 0);
+    text-shadow: 2px 2px rgb(100, 96, 96);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button>button>a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.button>button {
+    margin-top: 25px;
+    margin-left: 175px;
+    background-color: rgb(168, 66, 29);
+    border: none;
+    height: 25px;
+    width: 100px;
+    position: relative;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.button>button:hover {
+    background-color: rgb(42, 165, 63);
+}
+
+.info1 {
+    height: 75px;
+    width: 75px;
+    margin-left: 15px;
+    margin-top: 70px;
+    position: absolute;
+    border-radius: 100px;
+    background-image: url("Template/img2.png");
+    background-size: cover;
+    border: 1px solid rgb(230, 230, 230);
+    transition: 1s ease;
+}
+.info2 {
+    position: relative;
+    top: 18%;
+    left: 25%;
+    text-align: center;
+    color: rgb(87, 3, 3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
